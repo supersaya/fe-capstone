@@ -1,0 +1,165 @@
+.breadcrumb-bar.navbar.bg-white {
+        border-bottom: 0px solid #dee2e6;
+        border-radius: 0.375rem; }
+
+.navbar.bg-white {
+    border-bottom: 0px;
+    margin-bottom: 5px;}
+
+/** Card List **/
+.card-list {
+    margin-bottom: 0.75rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background: #e9ecef; }
+    .card-list .card {
+      border: none; }
+    .card-list .card-list-head {
+      display: flex;
+      justify-content: space-between; }
+    .card-list .card:last-child {
+      margin-bottom: 0; }
+
+/** Button  **/
+
+.btn-chartjs { background-color: #f27173; border-color: #f27173; }
+.btn-chartjs:hover { background-color: #e25f5f; border-color: #f27173;}
+.btn-docs:hover { background-color: #2793db; }
+.btn-docs { background-color: #36A2EB; }
+.btn-docs:hover { background-color: #2793db; }
+.btn-gh { background-color: #444; }
+.btn-gh:hover { background-color: #333; }
+
+.btn-on {
+    border-style: inset; }
+
+/* Button setting */
+.btn-round-white {
+    background-color: #fff; }
+.btn-round-white:hover {
+    background-color: #fff; }
+.ic-inline {
+    vertical-align: text-bottom;
+}
+
+/* Sửa padding các thẻ <li> header */
+/*
+@media (max-width: 991.98px) {
+    .navbar-expand-lg > .container,
+    .navbar-expand-lg > .container-fluid {
+      padding-right: 0;
+      padding-left: 0; } }
+
+@media (min-width: 992px) {
+.navbar-expand-lg {
+    flex-flow: row nowrap;
+    justify-content: flex-start; }
+    .navbar-expand-lg .navbar-nav {
+    flex-direction: row; }
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        position: absolute; }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1.5rem;
+        padding-left: 1.5rem; }
+    .navbar-expand-lg > .container,
+    .navbar-expand-lg > .container-fluid {
+    flex-wrap: nowrap; }
+    .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto; }
+    .navbar-expand-lg .navbar-toggler {
+    display: none; } }
+*/
+
+.navbar-dark .navbar-nav > .nav-item > .nav-link, .navbar-dark .navbar-nav > .nav-item > .dropdown > .nav-link {
+    color: rgba(255, 255, 255, 0.9);
+}
+.navbar-dark .navbar-nav > .nav-item > .nav-link:hover, .navbar-dark .navbar-nav > .nav-item > .dropdown > .nav-link:hover {
+    color: #fff;
+}
+.navbar-dark .navbar-nav > .nav-item > .nav-link.active, .navbar-dark .navbar-nav > .nav-item > .dropdown > .nav-link.active{
+    color: #ffc107;
+}
+
+/* Sửa padding top header trên repons */
+@media (min-width: 992px) {
+    .page-header {
+        padding-top: 1rem; }
+        .page-header .avatars .avatar {
+        width: 2.625rem;
+        height: 2.625rem; } }
+
+.page-header {
+    padding-top: 1rem;
+    margin-bottom: 1.5rem;
+    }
+    .page-header .progress {
+        margin-top: 1.5rem;
+        margin-bottom: 0.75rem; }
+    .page-header .avatars {
+        display: inline-block; }
+        .page-header .avatars + .btn-round {
+        margin-left: 0.375rem; }
+        
+
+hr {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Help Box */
+.help-box {
+    color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    margin: 20px 10px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+/* Text colors */
+.text-custom {
+    color: #7fc1fc !important;
+  }
+  .text-white {
+    color: #ffffff !important;
+  }
+  .text-danger {
+    color: #f5707a !important;
+  }
+  .text-muted {
+    color: #98a6ad !important;
+  }
+  .text-primary {
+    color: #188ae2 !important;
+  }
+  .text-warning {
+    color: #f9c851 !important;
+  }
+  .text-success {
+    color: #4bd396 !important;
+  }
+  .text-info {
+    color: #3ac9d6 !important;
+  }
+  .text-inverse {
+    color: #3b3e47 !important;
+  }
+  .text-pink {
+    color: #f06292 !important;
+  }
+  .text-purple {
+    color: #6b5fb5 !important;
+  }
+  .text-orange {
+    color: #ff9800 !important;
+  }
+  .text-brown {
+    color: #8d6e63 !important;
+  }
+  .text-teal {
+    color: #26a69a !important;
+  }
+  .text-dark {
+    color: #313a46 !important;
+  }
